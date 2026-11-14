@@ -48,6 +48,8 @@ python3 -m hough_circles --port 8080
 python3 scripts/acceptance.py
 ```
 
+最近一次实测退出码为 0，两张样图均通过判据；下表的圆心、半径与边缘支持度来自同一次运行。
+
 ### 硬币图
 
 参数：`dp=1.2, minDist=200, param1=100, param2=50, minRadius=150, maxRadius=210, blur=5`
@@ -87,7 +89,9 @@ openspec/        规格与变更记录
 
 ## OpenSpec 记录
 
-开发由变更 `add-hough-circle-gui` 驱动，完成后已归档；规格、规划与任务进度见：
+开发先由变更 `add-hough-circle-gui` 驱动并归档；本轮评审中的计划位于 `openspec/changes/add-hough-circle-tool/`（提案、规格、设计与任务清单）。
+
+已归档变更的规格、规划与任务进度见：
 
 - `openspec/changes/archive/2026-11-14-add-hough-circle-gui/proposal.md`
 - `openspec/changes/archive/2026-11-14-add-hough-circle-gui/specs/`（能力 `circle-detection`、`detection-gui`）
