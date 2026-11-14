@@ -20,8 +20,8 @@
 
 - [x] 4.1 编写 README（启动方式、界面用法、两张图的验收参数与结果图）与 AGENTS.md，验证按 README 命令可启动并访问页面
 - [x] 4.2 将验收脚本输出写入 README，验证 README 中的数量与半径与脚本输出一致
-- [ ] 4.3 提交并推送 `main`，验证 `git ls-remote origin` 返回 `main` 的提交且仓库链接可访问
+- [x] 4.3 提交并推送 `main`，验证 `git ls-remote origin` 返回 `main` 的提交且仓库链接可访问（`8b95e06`）
 
 ## Workflow follow-up
 
-- 保留 `openspec/changes/add-hough-circle-gui/` 变更记录，供组长查看规格、任务进度与验收结果。
+- 保留 `openspec/changes/archive/2026-11-14-add-hough-circle-gui/` 变更记录，供组长查看规格、任务进度与验收结果。

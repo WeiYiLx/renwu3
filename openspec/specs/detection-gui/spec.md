@@ -1,10 +1,9 @@
-# Spec Delta
+# detection-gui Specification
 
 ## Purpose
+提供一个本地图形界面，让使用者不必修改代码即可导入 JPEG/PNG 图片、调节霍夫圆参数、实时预览并导出标注结果。
 
-提供一个本地图形界面，让使用者不必修改代码即可导入图片、调节霍夫圆参数并查看标注结果。
-
-## ADDED Requirements
+## Requirements
 
 ### Requirement: 图片导入
 

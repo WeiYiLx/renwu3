@@ -87,14 +87,19 @@ openspec/        规格与变更记录
 
 ## OpenSpec 记录
 
-开发由变更 `add-hough-circle-gui` 驱动，规划、规格与进度见：
+开发由变更 `add-hough-circle-gui` 驱动，完成后已归档；规格、规划与任务进度见：
 
-- `openspec/changes/add-hough-circle-gui/proposal.md`
-- `openspec/changes/add-hough-circle-gui/specs/`（能力 `circle-detection`、`detection-gui`）
-- `openspec/changes/add-hough-circle-gui/design.md`
-- `openspec/changes/add-hough-circle-gui/tasks.md`（勾选表示已完成）
+- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/proposal.md`
+- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/specs/`（能力 `circle-detection`、`detection-gui`）
+- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/design.md`
+- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/tasks.md`（全部勾选）
 
-用 `openspec list` 查看变更状态，用 `openspec show add-hough-circle-gui` 查看内容。
+归档时已同步主规格：
+
+- `openspec/specs/circle-detection/spec.md`
+- `openspec/specs/detection-gui/spec.md`
+
+用 `openspec validate --specs --strict` 校验主规格，用 `openspec list --specs` 查看能力列表。
 
 ## 样图许可
 
