@@ -89,14 +89,10 @@ openspec/        规格与变更记录
 
 ## OpenSpec 记录
 
-开发先由变更 `add-hough-circle-gui` 驱动并归档；本轮评审中的计划位于 `openspec/changes/add-hough-circle-tool/`（提案、规格、设计与任务清单）。
+开发由两轮变更驱动，均已归档：
 
-已归档变更的规格、规划与任务进度见：
-
-- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/proposal.md`
-- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/specs/`（能力 `circle-detection`、`detection-gui`）
-- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/design.md`
-- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/tasks.md`（全部勾选）
+- `openspec/changes/archive/2026-11-14-add-hough-circle-gui/`：初始实现，含提案、规格、设计与任务清单。
+- `openspec/changes/archive/2026-11-14-add-hough-circle-tool/`：按评审流程复核规格与验收，任务 14/14 完成。
 
 归档时已同步主规格：
 
