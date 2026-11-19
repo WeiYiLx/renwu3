@@ -11,8 +11,8 @@
 | 起始版本 | `origin/main` @ `108bd3f`（2026-11-14 归档完成） |
 | 远端分支 | `origin/feat/issue-1-video-import-detection` |
 | 合并目标 | `WeiYiLx/renwu3` 的 `main` |
-| PR 方式 | 同仓库 PR：工作分支 → `main`；保持打开待评审，验收后合并或关闭，不删除工作分支 |
-| 规划 Issue | `#1`（编号用于分支命名；本机没有已登录的 GitHub API/浏览器会话，交接时未自动创建） |
+| PR 方式 | 同仓库 PR：工作分支 → `main`；保持打开待评审，验收后合并或关闭，不删除工作分支。PR 尚未创建，见下方创建链接 |
+| 规划 Issue | `#1`（编号用于分支命名；本机没有已登录的 GitHub API/浏览器会话，交接时未自动创建，见下方创建链接） |
 
 分支直达链接：
 
@@ -21,6 +21,10 @@
 PR 创建链接：
 
 <https://github.com/WeiYiLx/renwu3/compare/main...feat/issue-1-video-import-detection?expand=1>
+
+Issue 创建链接（标题已预填，正文可用下方“后续入口”一节）：
+
+<https://github.com/WeiYiLx/renwu3/issues/new?title=%E6%94%AF%E6%8C%81%E5%AF%BC%E5%85%A5%E8%A7%86%E9%A2%91%E5%B9%B6%E5%AE%8C%E6%88%90%E9%80%90%E5%B8%A7%E5%9C%86%E6%A3%80%E6%B5%8B>
 
 > 仓库当前只有 `origin`，没有上游仓库；不要把 PR 指向不存在的 `Ecrypted-Data/renwu3`。如果后续提供团队上游仓库，再把 `main` 换成上游 `main`，分支内容不变。
 
